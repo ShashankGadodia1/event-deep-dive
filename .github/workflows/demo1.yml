@@ -12,6 +12,8 @@ on:
       - main # main
       - uat # uat
       - dev/** # dev/shashank/models dev/models
+    paths-ignore:
+      - '.github/workflow/*'
 
 jobs:
   deploy:
